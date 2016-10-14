@@ -1,0 +1,32 @@
+{
+  "name": "str-repeat-cli",
+  "version": "1.0.0",
+  "bin": {
+    "str-repeat": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/yassh/str-repeat-cli/issues"
+  },
+  "dependencies": {
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {
+    "fixpack": "^2.3.1"
+  },
+  "homepage": "https://github.com/yassh/str-repeat-cli#readme",
+  "keywords": [
+    "cli",
+    "repeat",
+    "string"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/yassh/str-repeat-cli.git",
+    "type": "git"
+  },
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "./test.sh"
+  }
+}
